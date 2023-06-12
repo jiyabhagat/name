@@ -1,0 +1,25 @@
+package main
+  
+import (
+    "fmt"
+    "strings"
+)
+  
+// Main method
+func main() {
+  
+    // Creating and initializing string
+    str1 := "hi i am jiya bhagat"
+  
+    // Displaying strings
+    fmt.Println("Strings (before):")
+    fmt.Println("String 1: ", str1)
+  
+    // Converting all the string into uppercase
+    // Using ToUpper() function
+    res1 := strings.ToUpper(str1)
+  
+    // Displaying the results
+    fmt.Println("\nStrings (after):")
+    fmt.Println("Result 1: ", res1)
+}
